@@ -31,7 +31,6 @@ public class Main {
                 "peanut", "pear", "pepper", "pineapple", "pumpkin", "potato"};
         Random rn = new Random();
         String hiddenWord = words[rn.nextInt(words.length)];
-        System.out.println(hiddenWord);
         while(true){
             String userWord = sc.next();
             if (winCheck(hiddenWord, userWord)) {
